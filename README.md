@@ -1,6 +1,15 @@
 ## README.md - Mills et al. 2025 - Multisensory integration for active mechanosensation in _Drosophila_ flight
 
-### Folders correspond to the following figures-  
+### Experiment Code
+Each experimental code folder corresponds to the following figures-  
+**WindySteps**- Fig 2-4, S1  
+**SpeedyBars**- Fig 5  
+**Coco**- Fig 6, S3-4  
+
+Experiment code is written in MATLAB. Additionally, Excel sheets are including documenting metadata for each experimental fly
+
+
+### Analysis Folders correspond to the following figures-  
 
 **WindyStepsAnalysis**- Fig 2-3  
 **WindyStepsGeneticAnalysis**- Fig 4  
