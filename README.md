@@ -20,3 +20,5 @@ is then saved in a pandas DataFrame as a .pkl file.
 **experimentList.py** - This file includes the name of each experiment, sorted by condition. This file is required to generate the processed data (see angleDataframeCreation.py)  
 
 **importMat.py** - This file imports experimental data from each .mat file (each .mat file is one experimental fly). Used in angleDataframeCreation.py
+
+**Jupyter Notebooks** - This is where all analysis, figuremaking, etc. occurs.
