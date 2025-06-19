@@ -2,7 +2,8 @@
 
 ### Folders correspond to the following figures-  
 
-**WindyStepsAnalysis**- Fig 2-4  
+**WindyStepsAnalysis**- Fig 2-3  
+**WindyStepsGeneticAnalysis**- Fig 4  
 **SpeedyBarsAnalysis**- Fig 5  
 **CocoAnalysis**- Fig 6  
 **wbaAnalysis** -  Fig S1  
