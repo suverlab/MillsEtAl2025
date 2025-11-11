@@ -2,21 +2,21 @@
 
 ### Experimental Code
 Each experimental code folder corresponds to the following figures-  
-**WindySteps**- Fig 2-4, S1, S2  
+**WindySteps**- Fig 2-4, S1, S2, S3  
 **SpeedyBars**- Fig 5  
-**Coco**- Fig 6, S4 (tuning/anemometer data), S5-S6  
+**Coco**- Fig 6, S5 (tuning/anemometer data), S6-S7  
 
 Experiment code is written in MATLAB. Additionally, Excel sheets are including documenting metadata for each experimental fly
 
 
 ### Analysis Folders correspond to the following figures-  
 
-**WindyStepsAnalysis**- Fig 2-3, S1  
+**WindyStepsAnalysis**- Fig 2-3, S1, S3  
 **WindyStepsGeneticAnalysis**- Fig 4  
 **SpeedyBarsAnalysis**- Fig 5  
-**CocoAnalysis**- Fig 6, S6  
+**CocoAnalysis**- Fig 6, S7  
 **wbaAnalysis** -  Fig S2  
-**prelimCocoAnalysis**- Fig S5  
+**prelimCocoAnalysis**- Fig S6  
 
 ### Descriptions of each file
 **angleDataframeCreation.py** - This file takes raw data (typically an experimental .mat file alongside tracked DeepLabCut data) and performs postprocessing steps.
