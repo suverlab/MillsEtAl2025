@@ -84,6 +84,20 @@ Static = [
     '2024_07_19_E7'  #29
 ]
 
-all_notes = [Dark, Dead, Static]
-all_notes_names = ['Dark','Dead', 'Static']
+Grey = [
+    '2025_06_20_E1', #0
+    '2025_06_20_E2', #1
+    '2025_06_20_E3', #2
+    '2025_06_23_E1', #3
+    '2025_06_23_E2', #4
+    '2025_06_23_E3', #5
+    '2025_07_02_E1', #6
+    '2025_07_02_E2', #7
+    '2025_07_02_E3', #8
+    '2025_07_17_E1', #9
+    '2025_07_17_E2' #10
+]
+
+all_notes = [Grey, Dark, Dead, Static]
+all_notes_names = ['Grey','Dark','Dead', 'Static']
 num_experiments = sum([len(condition) for condition in all_notes])

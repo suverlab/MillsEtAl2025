@@ -32,6 +32,7 @@ def getXY_trackedBodyparts(config_path, videofolder, vidName):
     trainFraction = cfg['TrainingFraction'][0]
     DLCscorer = auxiliaryfunctions.GetScorerName(cfg,1,trainFraction)[0] #automatically loads corresponding model (even training iteration based on snapshot index)
     dataname = str(videofolder)+'/'+vidName+DLCscorer + '.h5'
+    print(dataname)
     if os.path.isfile(dataname):
         Dataframe = pd.read_hdf(dataname)
     else:
