@@ -5,8 +5,8 @@ Constants for use in angleDataframeCreation.py, plottingFunctions.py, importMat.
 import numpy as np
 
 #### Directories - PATH to various items, use to set up datastructure
-baseDirectory = '/Users/millskm/Desktop/Vanderbilt/SuverLab - Analysis/WindyStepsGeneticAnalysis/' # Main Folder
-matDirectory = '/Users/millskm/Desktop/Vanderbilt/SuverLab - Analysis/WindyStepsGeneticAnalysis/mat/' # Folder in which all .mat files are placed
+baseDirectory = '/Users/kevmi/Desktop/WindyStepsGeneticAnalysis/' # Main Folder
+matDirectory = '/Users/kevmi/Desktop/WindyStepsGeneticAnalysis/mat/' # Folder in which all .mat files are placed
 dataDirectory = baseDirectory + 'data/' # Folder which will holder folders for each cameraView with data from DLC
 DLCDirectory = baseDirectory + 'DLC/' # Place all DLC projects in this folder
 
