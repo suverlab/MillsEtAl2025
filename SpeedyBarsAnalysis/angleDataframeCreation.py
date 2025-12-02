@@ -324,11 +324,13 @@ def getAntennalData(experiment, cameraView, df):
         elif const.TRIAL_NUMS_IN_MAT == False:
             j = i + 1
         if const.ANGPAIR_AVGS == True:
-            l_a = get_antenna_angles_adjusted(experiment, cameraView, j)[:,l_start_idx:l_end_idx+1]
-            r_a = get_antenna_angles_adjusted(experiment, cameraView, j)[:,r_start_idx:r_end_idx+1]
+            a = get_antenna_angles_adjusted(experiment, cameraView, j)
+            l_a = a[:,l_start_idx:l_end_idx+1]
+            r_a = a[:,r_start_idx:r_end_idx+1]
         elif const.ANGPAIR_AVGS == False:
-            l_a = get_antenna_angles(experiment, cameraView, j)[:,l_start_idx:l_end_idx+1]
-            r_a = get_antenna_angles(experiment, cameraView, j)[:,r_start_idx:r_end_idx+1]
+            a = get_antenna_angles(experiment, cameraView, j)
+            l_a = a[:,l_start_idx:l_end_idx+1]
+            r_a = a[:,r_start_idx:r_end_idx+1]
             
         left_angles.append(l_a)
         right_angles.append(r_a)
